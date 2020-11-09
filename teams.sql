@@ -1,3 +1,12 @@
+CREATE TABLE teams (
+    name VARCHAR,
+    stadium VARCHAR,
+    head_coach VARCHAR,
+    conference VARCHAR,
+    division VARCHAR,
+    active BOOLEAN
+);
+
 INSERT INTO teams (name, stadium, head_coach, conference, division, active) VALUES ('Buffalo Bills', 'Ralph Wilson Stadium', 'Doug Marrone', 'AFC', 'East', 'true');
 INSERT INTO teams (name, stadium, head_coach, conference, division, active) VALUES ('Miami Dolphins', 'Sun Life Stadium', 'Joe Philbin', 'AFC', 'East', 'true');
 INSERT INTO teams (name, stadium, head_coach, conference, division, active) VALUES ('New England Patriots', 'Gillette Stadium', 'Bill Belichick', 'AFC', 'East', 'true');
